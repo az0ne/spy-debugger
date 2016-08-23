@@ -1,6 +1,6 @@
 {
   "name": "spy-debugger",
-  "version": "3.0.3",
+  "version": "3.0.4",
   "description": "web page one-stop remote network debugger",
   "main": "lib/index.js",
   "scripts": {
@@ -53,6 +53,9 @@
     "mocha": "^2.4.5",
     "webpack": "^2.1.0-beta.20"
   },
+  "files": [
+    "lib"
+  ],
   "engines": {
     "node": ">= 4"
   }
