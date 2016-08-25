@@ -8,7 +8,9 @@
     "build": "babel -w src -d lib",
     "build-electron": "webpack",
     "dev": "node-debug dev/testSpyProxy.js",
-    "prepublish": "babel src -d lib"
+    "prepublish": "babel src -d lib",
+    "electron-start": "electron app",
+    "package": "electron-packager app spy-debugger --platform=all --arch=all"
   },
   "bin": {
     "spy-debugger": "lib/index.js"

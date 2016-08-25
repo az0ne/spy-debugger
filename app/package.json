@@ -1,4 +1,5 @@
 {
-  "name": "spy-debugger",
-  "main": "main.js"
+    "name": "spy-debugger-desktop",
+    "version": "0.0.1-beta",
+    "main": "./src/main.js"
 }
