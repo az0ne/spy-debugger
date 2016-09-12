@@ -10,7 +10,7 @@
     "dev": "node-debug dev/testSpyProxy.js",
     "prepublish": "babel src -d lib",
     "electron-start": "electron app",
-    "package": "electron-packager app spy-debugger --platform=all --arch=all"
+    "pack": "build --dir"
   },
   "bin": {
     "spy-debugger": "lib/index.js"
@@ -59,6 +59,16 @@
     "lib",
     "template"
   ],
+  "build": {
+    "appId": "wuchangming.spy-debugger",
+    "category": "public.app-category.developer-tools",
+    "asar": false,
+    "mac": {
+      "target": [
+        "default"
+      ]
+    }
+  },
   "engines": {
     "node": ">= 4"
   }
